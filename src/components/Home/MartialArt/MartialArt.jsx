@@ -27,8 +27,6 @@ Washington Dance School is a prestigious dance institution ,The school offers a 
 
 export default MartialArt;
 
-//  className="bg-[url('https://img.freepik.com/free-photo/young-woman-doing-karate_23-2148993567.jpg?w=826&t=st=1686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea245
-
 
 // style={{
 //           backgroundImage:
