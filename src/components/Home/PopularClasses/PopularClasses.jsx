@@ -19,28 +19,7 @@ const PopularClasses = () => {
           Popular Classes
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:ml-9">
-          {/* {allClasses.map((classes) => (
-            <div
-              key={classes._id}
-              className=" card-compact w-96 bg-base-100 border-2 border-gray-200 shadow-xl"
-            >
-              <figure>
-                <img
-                  className="class-image h-72"
-                  src={classes.image}
-                  alt="Class Image"
-                />
-              </figure>
-              <div className="card-body ">
-                <h3 className="text-lg">Name : {name}</h3>
-                <p classNa
-                
-                    Select
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))} */}
+          
 
           {allClasses.map((enrol) => (
             <ClassesDetails key={enrol._id} enrol={enrol}></ClassesDetails>
