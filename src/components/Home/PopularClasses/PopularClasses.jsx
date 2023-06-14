@@ -34,9 +34,7 @@ const PopularClasses = () => {
               <div className="card-body ">
                 <h3 className="text-lg">Name : {name}</h3>
                 <p classNa
-                <p className=" text-lg">
-                   : {.availableSeats}
-                </p>
+                
                 <p className="text-lg ">Price: {classes.price}</p>
                 <div className="text-center">
                   <button
