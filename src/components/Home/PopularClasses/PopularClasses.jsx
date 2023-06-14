@@ -37,7 +37,7 @@ const PopularClasses = () => {
                 
               
                     onClick={() => enrolledClass(_id)}
-                    className="w-full bg-primary py-2 px-3 rounded text-white font-bold "
+                    className="w-full bg- py-2 px-3 rounded text-white font-bold "
                   >
                     Select
                   </button>
