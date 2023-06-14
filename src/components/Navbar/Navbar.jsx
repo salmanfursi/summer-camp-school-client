@@ -51,7 +51,7 @@ const handleTheme = () => {
             <div className="flex-shrink-0">
               <img
                 className="w-12 h-12"
-                src="https://cdn-icons-png.flaticon.com/512/195/195131.png?w=740&t=st=1686729593~exp=1686730193~hmac=065eb6a035d5a3d4c4390d2f0e666b23ecc94fe23c7bde9829048a1095407898"
+                src="https://i.ibb.co/yfdCt9M/195131.png"
                 alt=""
               />
               {/* <h1>Martial Art</h1> */}

@@ -9,7 +9,7 @@ const MartialArt = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-10"></div>
-        <div className="hero-content lg:text-right text-neutral-content">
+        <div className="hero-content lg:text-right md:text-right text-neutral-content">
           <div className="max-w-md">
             <h1 className="text-cyan-600 mb-5 text-4xl font-bold">
               Washington dance acadamy
@@ -27,7 +27,7 @@ Washington Dance School is a prestigious dance institution ,The school offers a 
 
 export default MartialArt;
 
-//  className="bg-[url('https://img.freepik.com/free-photo/young-woman-doing-karate_23-2148993567.jpg?w=826&t=st=1686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea2456622e1fcb4331c')] h-screen
+//  className="bg-[url('https://img.freepik.com/free-photo/young-woman-doing-karate_23-2148993567.jpg?w=826&t=st=1686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea245
 
 
 // style={{
