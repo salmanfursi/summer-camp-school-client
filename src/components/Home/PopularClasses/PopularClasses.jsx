@@ -33,9 +33,7 @@ const PopularClasses = () => {
               </figure>
               <div className="card-body ">
                 <h3 className="text-lg">Name : {name}</h3>
-                <p className=" text-lg">
-                   : {.instructorName}
-                </p>
+                <p classNa
                 <p className=" text-lg">
                   AvailableSeats : {.availableSeats}
                 </p>
