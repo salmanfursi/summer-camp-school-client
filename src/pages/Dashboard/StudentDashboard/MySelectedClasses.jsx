@@ -13,7 +13,7 @@ const MyEnrolledClasses = () => {
   console.log(enrolled);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/carts?email=${user?.email}`, {
+    fetch(`https://summer-camp-server-side-lovat.vercel.app/carts?email=${user?.email}`, {
       headers: {
         authorization: `bearer ${localStorage.getItem("access-token")}`,
       },
@@ -35,7 +35,7 @@ const MyEnrolledClasses = () => {
   //       image,
   //       price,
   //     };
-  //     fetch(`http://localhost:5000/carts`, {
+  //     fetch(`https://summer-camp-server-side-lovat.vercel.app/carts`, {
   //       method: "POST",
   //       headers: {
   //         "content-type": "application/json",

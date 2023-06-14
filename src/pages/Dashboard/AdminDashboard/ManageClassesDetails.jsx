@@ -59,7 +59,7 @@ const ManageClassesDetails = ({ approve, index, setApproved, approved }) => {
     if (text) {
       console.log(text);
 
-      fetch(`http://localhost:5000/classFeedback/${_id}`, {
+      fetch(`https://summer-camp-server-side-lovat.vercel.app/classFeedback/${_id}`, {
         method: "PATCH",
         headers: {
           "content-type": "application/json",

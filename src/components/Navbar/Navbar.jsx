@@ -40,18 +40,18 @@ const handleTheme = () => {
 
 
   return (
-    <nav className="bg-green-200 font-bold">
+    <nav className="bg-violet-400 font-bold">
       {/* <DayNightToggle
         onChange={() => setIsDarkMode(!isDarkMode)}
         checked={isDarkMode}
       /> */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-18">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <img
-                className="w-24 h-24"
-                src="https://i.ibb.co/PWkVHyy/2411-removebg-preview.png"
+                className="w-12 h-12"
+                src="https://cdn-icons-png.flaticon.com/512/195/195131.png?w=740&t=st=1686729593~exp=1686730193~hmac=065eb6a035d5a3d4c4390d2f0e666b23ecc94fe23c7bde9829048a1095407898"
                 alt=""
               />
               {/* <h1>Martial Art</h1> */}
@@ -193,7 +193,7 @@ const handleTheme = () => {
       </div>
       <div className={`${isOpen ? "block" : "hidden"} md:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <ul className="menu px-1">
+          <ul className="menu px-2">
             <li>
               <NavLink
                 to="/"

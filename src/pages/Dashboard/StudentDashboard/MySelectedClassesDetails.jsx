@@ -30,7 +30,7 @@ const MySelectedClassesDetails = ({ enrol, index, setEnrolled, enrolled }) => {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .delete(`http://localhost:5000/carts/${_id}`)
+          .delete(`https://summer-camp-server-side-lovat.vercel.app/carts/${_id}`)
           .then((res) => {
             const data = res.data;
             if (data.deletedCount > 0) {
@@ -48,7 +48,7 @@ const MySelectedClassesDetails = ({ enrol, index, setEnrolled, enrolled }) => {
 
   // const handleDelete = (_id) => {
   //   //   console.log(_id);
-  //   axiosSecure(`http://localhost:5000/carts/${_id}`, {
+  //   axiosSecure(`https://summer-camp-server-side-lovat.vercel.app/carts/${_id}`, {
   //     method: "DELETE",
   //   }).then((data) => {
   //     console.log(data);

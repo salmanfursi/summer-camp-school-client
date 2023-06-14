@@ -51,7 +51,7 @@ const AddNewClass = () => {
           };
 
           axiosSecure
-            .post("http://localhost:5000/classes", newClass)
+            .post("https://summer-camp-server-side-lovat.vercel.app/classes", newClass)
             .then((data) => {
               console.log("after posting menu item", data.data);
               if (data.data.insertedId) {

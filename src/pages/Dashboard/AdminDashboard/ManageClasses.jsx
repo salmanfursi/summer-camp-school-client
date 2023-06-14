@@ -13,7 +13,7 @@ console.log(approved)
 
 
 useEffect(() => {
-  fetch("http://localhost:5000/allClasses")
+  fetch("https://summer-camp-server-side-lovat.vercel.app/allClasses")
     .then((res) => res.json())
     .then((data) => {
       setApproved(data)
