@@ -35,9 +35,7 @@ const PopularClasses = () => {
                 <h3 className="text-lg">Name : {name}</h3>
                 <p classNa
                 
-                <p className="text-lg ">Price: {classes.price}</p>
-                <div className="text-center">
-                  <button
+              
                     onClick={() => enrolledClass(_id)}
                     className="w-full bg-primary py-2 px-3 rounded text-white font-bold "
                   >
