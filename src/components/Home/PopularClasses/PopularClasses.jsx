@@ -34,7 +34,7 @@ const PopularClasses = () => {
               <div className="card-body ">
                 <h3 className="text-lg">Name : {name}</h3>
                 <p className=" text-lg">
-                  InstructorName : {classes.instructorName}
+                  InstructorName : {.instructorName}
                 </p>
                 <p className=" text-lg">
                   AvailableSeats : {classes.availableSeats}
