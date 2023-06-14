@@ -35,9 +35,6 @@ const PopularClasses = () => {
                 <h3 className="text-lg">Name : {name}</h3>
                 <p classNa
                 
-                    ={() => enrolledClass(_id)}
-                    className="w-full bg- py-2 px-3 rounded text-white font-bold "
-                  >
                     Select
                   </button>
                 </div>
