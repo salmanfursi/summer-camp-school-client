@@ -37,7 +37,7 @@ const PopularClasses = () => {
                   InstructorName : {.instructorName}
                 </p>
                 <p className=" text-lg">
-                  AvailableSeats : {classes.availableSeats}
+                  AvailableSeats : {.availableSeats}
                 </p>
                 <p className="text-lg ">Price: {classes.price}</p>
                 <div className="text-center">
