@@ -1,11 +1,12 @@
 
 import {
   FaFacebook,
+  FaYoutube,
   FaInstagram,
   FaTwitter,
-  FaYoutube,
-  FaLinkedin,
   FaSnapchat,
+  FaLinkedin,
+  
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -14,50 +15,46 @@ function Footer() {
     <footer className="bg-gray-900 pt-12 pb-8 px-4 md:px-10 mt-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="col-span-1">
-          <h2 className="text-white text-lg font-medium mb-4">About Us</h2>
+          <h2 className="text-cyan-600 text-lg font-medium mb-4">About Us</h2>
           <p className="text-gray-400 text-sm leading-loose">
-            Thank you for visiting our recipe website. We hope you enjoyed this
-            recipe and found it useful. If you have any feedback or suggestions,
-            please let us know in the comments below. t forget to follow us
-            on social media and subscribe to our newsletter for more delicious
-            recipes like this one.
+          Welcome to our dance school! We are so excited to have you join our community of dancers. We committed to providing you with a fun, safe, and supportive environment where you can learn and grow as a dancer. We offer a variety of classes for all levels. We hope you enjoy your time at our dance school!
           </p>
         </div>
         <div className="col-span-1">
-          <h2 className="text-white text-lg font-medium mb-4">Latest</h2>
+          <h2 className="text-cyan-600 text-lg font-medium mb-4">Latest</h2>
           <ul className="text-gray-400 text-sm leading-loose">
             <li>
-              <Link to="">Public API</Link>
+              <Link to="">privat API</Link>
             </li>
             <li>
-              <Link to="">Documentation</Link>
+              <Link to="">easy docs</Link>
             </li>
             <li>
-              <Link to="">Guides</Link>
+              <Link to="">better guide</Link>
             </li>
             <li>
               <a href="#" className="hover:text-gray-100 transition-colors">
-                Recipe
+                natural environment
               </a>
             </li>
           </ul>
         </div>
         <div className="col-span-1">
-          <h2 className="text-white text-lg font-medium mb-4">Contact Us</h2>
+          <h2 className="text-cyan-600 text-lg font-medium mb-4">Contact Us</h2>
           <p className="text-gray-400 text-sm leading-loose">
-            123 Main St.
+            555 Main St.
             <br />
-            Anytown, USA 12345
+            Washington, USA 12123
             <br />
-            (123) 456-7890
+            (333) 444-2233
             <br />
-            info@example.com
+            washington@dance.com
           </p>
         </div>
         <div className="col-span-1  md:justify-end">
-          <h2 className="text-white text-lg font-medium mb-4">Follow Us</h2>{" "}
+          <h2 className="text-cyan-600 text-lg font-medium mb-1">Follow Us</h2>{" "}
           <br />
-          <ul className="flex space-x-4">
+          <ul className="">
             <li>
               <a
                 href="#"
@@ -111,7 +108,7 @@ function Footer() {
       </div>
       <div className="mt-8 border-t border-gray-700 pt-4">
         <p className="text-gray-400 text-sm text-center">
-          &copy; 2023 Company Name. All rights reserved.
+          &copy; 2023 Washington dance school. All rights reserved.
         </p>
       </div>
     </footer>
