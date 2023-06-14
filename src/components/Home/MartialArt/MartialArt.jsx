@@ -2,14 +2,14 @@
 const MartialArt = () => {
     return (
       <div
-        className="hero sm:w-full h-[600px]"
+        className="hero sm:w-full w-full h-[500px]"
         style={{
           backgroundImage:
             "url('https://as2.ftcdn.net/v2/jpg/04/48/55/83/1000_F_448558377_0OqtbLWaDmPXyvE60G5einMFeFEdbKe2.jpg') ",
         }}
       >
         <div className="hero-overlay bg-opacity-10"></div>
-        <div className="hero-content text-right ml-80 text-neutral-content">
+        <div className="hero-content lg:text-right text-neutral-content">
           <div className="max-w-md">
             <h1 className="text-cyan-600 mb-5 text-4xl font-bold">
               Washington dance acadamy
