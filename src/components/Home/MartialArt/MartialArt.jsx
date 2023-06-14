@@ -28,6 +28,5 @@ Washington Dance School is a prestigious dance institution ,The school offers a 
 export default MartialArt;
 
 
-// style={{
-//          git=st=1686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea2456622e1fcb4331c')",
+// 686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea2456622e1fcb4331c')",
 //         }}
