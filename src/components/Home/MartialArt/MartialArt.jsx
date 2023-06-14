@@ -29,6 +29,5 @@ export default MartialArt;
 
 
 // style={{
-//           backgroundImage:
-//             "url('https://img.freepik.com/free-photo/young-woman-doing-karate_23-2148993567.jpg?w=826&t=st=1686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea2456622e1fcb4331c')",
+//          git=st=1686309092~exp=1686309692~hmac=69604cb2c74df3587600317ad0f63c50811cfaa0984e4ea2456622e1fcb4331c')",
 //         }}
