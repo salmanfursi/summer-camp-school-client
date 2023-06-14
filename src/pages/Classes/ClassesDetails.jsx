@@ -79,7 +79,7 @@ const ClassesDetails = ({ enrol }) => {
     <div>
       {availableSeats === 0 ? (
         <>
-          <div className=" card-compact w-96 bg-red-400  shadow-xl">
+          <div className=" card-compact w-96 bg-red-500  shadow-xl">
             <figure>
               <img className="w-full h-72" src={image} alt="Class Image" />
             </figure>
@@ -101,7 +101,7 @@ const ClassesDetails = ({ enrol }) => {
         </>
       ) : (
         <>
-          <div className=" card-compact w-96 bg-base-100 border-2 border-gray-200 shadow-xl">
+          <div className=" card-compact w-96 bg-base-200 border-3 border-gray-300 shadow-xl">
             <figure>
               <img className="class-image h-72" src={image} alt="Class Image" />
             </figure>

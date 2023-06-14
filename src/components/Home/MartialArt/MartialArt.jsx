@@ -9,7 +9,7 @@ const MartialArt = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-10"></div>
-        <div className="hero-content lg:text-right md:text-right text-neutral-content">
+        <div className="hero-content sm:text-right md:text-right text-neutral-content">
           <div className="max-w-md">
             <h1 className="text-cyan-600 mb-5 text-4xl font-bold">
               Washington dance acadamy

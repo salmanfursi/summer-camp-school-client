@@ -15,10 +15,13 @@ function Footer() {
     <footer className="bg-gray-900 pt-12 pb-8 px-4 md:px-10 mt-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="col-span-1">
-          <h2 className="text-cyan-600 text-lg font-medium mb-4">About Us</h2>
-          <p className="text-gray-400 text-sm leading-loose">
-          Welcome to our dance school! We are so excited to have you join our community of dancers. We committed to providing you with a fun, safe, and supportive environment where you can learn and grow as a dancer. We offer a variety of classes for all levels. We hope you enjoy your time at our dance school!
-          </p>
+        <img
+                className="w-18 h-18"
+                src="https://i.ibb.co/yfdCt9M/195131.png"
+                alt=""
+              />
+        <a className="text-cyan-600 text-lg font-medium text-left">...........Washington dance club..........</a>
+
         </div>
         <div className="col-span-1">
           <h2 className="text-cyan-600 text-lg font-medium mb-4">Latest</h2>
